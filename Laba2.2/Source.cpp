@@ -28,7 +28,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 
 	}
 
-					return 0;
+	     return 0;
 
 	case WM_USER + 2: {
 		STARTUPINFOW si = { 0 };
